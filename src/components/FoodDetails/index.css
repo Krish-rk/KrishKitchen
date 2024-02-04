@@ -1,0 +1,53 @@
+.food-list-item-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 300px;
+}
+
+.food-image-size {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.food-item-details-view {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.food-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+}
+.rupee-name-rating-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 30px;
+}
+.cost-of-food {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+}
+.quantity-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.add-to-cart-btn {
+  border: solid;
+  width: 70px;
+  height: 30px;
+  font-size: 10px;
+  font-family: 'Roboto';
+  border-color: orange;
+  border-radius: 5px;
+  color: orange;
+}

@@ -1,0 +1,31 @@
+.cart-items-box {
+  width: 80%;
+  margin: 40px;
+  margin-left: 150px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 15px;
+  background: #f9fbfe;
+  border: 1px solid rgba(11, 105, 255, 0.1);
+}
+
+.t-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.t-h-item {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+  margin: 0;
+  margin-right: 20px;
+}
